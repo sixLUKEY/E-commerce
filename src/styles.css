@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,900&display=swap');
+
+body{
+    background-color: rgba(0, 0, 0, 0.91);
+    color: white;
+}
+
+.linksUl > li > a {
+    text-decoration: none !important;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.product{
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.product:hover {
+    scale: 1.05;
+    opacity: 0.8 ;
+    
+}
+
+.heroHeading{
+    font-size: 4rem;
+}
+
+
+@media only screen and (min-width:1000px) {
+    .productBox .img-thumbnail {
+        height: 200px !important;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .productBox .img-thumbnail {
+        height: 100px !important;
+    }
+}
+
+
+
+.brands .img-thumbnail{
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.hero{
+    height: 400px;
+    /* background-color: aqua; */
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: brown; */
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+    background: rgb(2,1,41);
+    background: linear-gradient(90deg, rgba(2,1,41,1) 5%, rgba(9,9,121,1) 53%, rgba(0,212,255,1) 100%);
+    }

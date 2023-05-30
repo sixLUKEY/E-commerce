@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,900&display=swap');
+
+body{
+    background-color: rgba(0, 0, 0, 0.91);
+    color: white;
+}
+
+.linksUl > li > a {
+    text-decoration: none !important;
+    color: white;
+    font-weight: 700;
+}
+
+.product{
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.product:hover {
+    scale: 1.05;
+    opacity: 0.8 ;
+    
+}
+
+.gaming{
+    width: 200px;
+}
